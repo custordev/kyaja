@@ -1,9 +1,16 @@
-import React from 'react'
+import CategoryBanner from "@/components/CategoryBanner";
+import Hero from "@/components/Hero";
+import ProductList from "@/components/ProductList";
+import React from "react";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <Hero />
+      <CategoryBanner />
+      <ProductList />
+    </div>
+  );
 }
 
-export default page
+export default page;
