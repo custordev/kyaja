@@ -57,9 +57,9 @@ export default function Navbar() {
                 type="button"
                 className="relative inline-flex items-center p-3 text-sm font-medium text-center rounded-lg  focus:outline-none "
               >
-                <AiOutlineShoppingCart className="text-xl sm:text-2xl text-lime-600" />
-
-                <div className="absolute text-white inline-flex items-center justify-center w-6 h-6 text-xs font-bold  bg-red-500  rounded-full -top-1 -left-1 ">
+                <AiOutlineShoppingCart className="text-xl sm:text-2xl text-lime-800" />
+                cart
+                <div className="absolute text-white inline-flex items-center justify-center w-6 h-6 text-xs font-bold  bg-[#FF9900]  rounded-full -top-1 -left-1 ">
                   <p>1</p>
                 </div>
               </Link>

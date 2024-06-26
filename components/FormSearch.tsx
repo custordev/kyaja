@@ -51,15 +51,15 @@ export default function FormSearch() {
         <input
           type="text"
           id="simple-search"
-          className="  text-sm rounded-md border focus:ring-lime-500 focus:border-lime-500 block w-[32vw] lg:pl-10 py-1.5 "
+          className="  text-sm rounded-md border  block w-[32vw] lg:pl-10 py-1.5 "
           placeholder="Search products, Categories, markets "
         />
       </div>
       <button
         type="submit"
-        className="flex items-center text-white rounded-md bg-lime-600 gap-2 px-4"
+        className="flex items-center text-white rounded-md bg-[#FF9900] gap-2 px-4"
       >
-        <BiSearch />
+        {/* <BiSearch /> */}
         <span className="text-sm">Search</span>
       </button>
     </form>

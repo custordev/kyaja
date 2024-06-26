@@ -7,8 +7,6 @@ function page() {
   return (
     <div>
       <Hero />
-      <CategoryBanner />
-      <ProductList />
     </div>
   );
 }
