@@ -23,9 +23,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <CartProvider>
-          <ToastContainer />
-          <TopBanner />
-          <Navbar />
           {children}
           <Footer />
         </CartProvider>
