@@ -4,7 +4,7 @@ import React from "react";
 
 export default function CategoryBanner() {
   return (
-    <div className="px-20">
+    <div className="lg:px-[6rem] md:pt-[3rem] pt-[2rem] lg:pt-[3.2rem]">
       <div className="container mx-auto py-8 overflow-hidden bg-slate-100 shadow-md rounded-md px-4 md:px-8 my-4 md:my-8">
         <h2 className="text-center font-bold mb-6 text-orange-700 text-base md:text-3xl">
           Shop By Category

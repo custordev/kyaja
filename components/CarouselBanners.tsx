@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import slide1 from "../public/images/carousel-image4.webp";
-import slide3 from "../public/gif/gif1.gif";
-import slide2 from "../public/images/carousel-image.webp";
-import slide5 from "../public/images/carousel-image2.webp";
-import slide4 from "../public/images/carousel-image3.webp";
+import slide1 from "../public/gif/kyaja1.gif";
+import slide3 from "../public/gif/july.gif";
+import slide2 from "../public/gif/Electronics.gif";
+import slide5 from "../public/gif/phones.gif";
+import slide4 from "../public/gif/watches.gif";
 import Link from "next/link";
 import Image from "next/image";
 import Carousel from "nuka-carousel";
