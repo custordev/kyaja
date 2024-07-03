@@ -4,7 +4,7 @@ import CarouselBanners from "./CarouselBanners";
 export default function Hero() {
   return (
     <div className=" bg-[url('/images/homebg.png')] bg-cover flex justify-between w-full min-h-[70vh] lg:px-[6rem] md:pt-[3rem] pt-[2rem] lg:pt-[3.2rem]">
-      <div className="rounded-sm hidden lg:block lg:w-[18%] bg-white px-3">
+      <div className="rounded-sm hidden lg:block lg:w-[18%] bg-white px-3 line-clamp-1">
         <p>Beauty and Health</p>
         <p>Apppances</p>
         <p>Toys</p>

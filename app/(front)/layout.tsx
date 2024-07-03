@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     // dark:bg-gradient-to-t from-indigo-950  to-black bg-indigo-200
-    <body className=" ">
+    <body className="">
       <ToastContainer />
       <TopBanner />
       <Navbar />

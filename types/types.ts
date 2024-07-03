@@ -10,3 +10,8 @@ export interface CartContextType {
   addItem: (item: CartItem) => void;
   removeItem: (id: number) => void;
 }
+export interface CartegoryLinkProp {
+  slug: string;
+  title: string;
+  image: any;
+}
