@@ -1,4 +1,6 @@
 import CategoryBanner from "@/components/CategoryBanner";
+import CuratedProducts from "@/components/CuratedProducts";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import FlashSales from "@/components/FlashSales";
 import Hero from "@/components/Hero";
 import PayweekDeals from "@/components/Payweek-deals";
@@ -11,6 +13,8 @@ export default function page() {
       <CategoryBanner />
       <FlashSales />
       <PayweekDeals />
+      <CuratedProducts />
+      <FeaturedProducts />
     </div>
   );
 }
