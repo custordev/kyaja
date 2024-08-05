@@ -8,7 +8,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className=" bg-[#633185] min-h-[100vh] ">
+    <div className="bg-[#4084a1c2] min-h-[100vh] ">
       <Hero />
       <CategoryBanner />
       <FlashSales />

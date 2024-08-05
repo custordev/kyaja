@@ -63,11 +63,11 @@ export default function CuratedProducts() {
   return (
     <section className="lg:px-[6rem] mt-5">
       <div className="flex  bg-[#FF9900] py-4  font-medium px-4">
-        <span> Curated For You | Shop Now</span>
+        <span> Curated For You | Shop Now </span>
       </div>
-      <div className="  bg-slate-100 py-4 px-4  flex gap-2 flex-col ">
+      <div className="  bg-slate-100 py-4 px-4 flex gap-2 flex-col">
         <div className=" flex flex-col gap-3 ">
-          <div className="py-4 overflow-hidden bg-slate-100 shadow-md rounded-md mt-2 ">
+          <div className="py-4 overflow-hidden bg-slate-100 shadow-md rounded-md mt-2">
             <div className="grid grid-cols-6 px-2 gap-2 font-medium ">
               {categoryLinks.map((item, i) => (
                 <Link

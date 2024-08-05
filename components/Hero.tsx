@@ -1,12 +1,13 @@
 import React from "react";
 import CarouselBanners from "./CarouselBanners";
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className=" bg-[url('/images/homebg.png')] bg-cover flex justify-between w-full min-h-[70vh] lg:px-[6rem] md:pt-[3rem] pt-[2rem] lg:pt-[3.2rem]">
-      <div className="rounded-sm hidden lg:block lg:w-[18%] bg-white px-3 line-clamp-1">
+    <div className=" bg-[url('/images/bgkyaja.png')] bg-cover flex justify-between w-full min-h-[70vh] lg:px-[6rem] md:pt-[3rem] pt-[2rem] lg:pt-[3.2rem]">
+      <div className="rounded-sm hidden  lg:flex lg:w-[18%] bg-white px-3 line-clamp-1 capitalize text-xs  flex-col gap-4">
         <p>Beauty and Health</p>
-        <p>Apppances</p>
+        <p>Appliances</p>
         <p>Toys</p>
         <p>Accessories</p>
         <p>Official Stores</p>
@@ -16,7 +17,7 @@ export default function Hero() {
         <p>Beddings</p>
         <p>Bags</p>
         <p>Phones</p>
-        <p>Jewelry and Accesories</p>
+        <p>Jewelry and Accessories</p>
         <p></p>
       </div>
       <div className="lg:w-[62%] w-full ml-4">
@@ -52,9 +53,11 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="w-full h-1/2 bg-purple-600 rounded-md">
-          <img
-            src="/gif/JS_SIMI_BRANDSALE_SmallBanner_218X184.gif"
+        <div className="w-full h-1/2 bg-[#] rounded-md">
+          <Image
+            width={1080}
+            height={1080}
+            src="/gif/livenow.gif"
             alt=""
             className="w-full h-full object-cover rounded-md"
           />
